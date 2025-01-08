@@ -1,1 +1,3 @@
-./tailwind.config.js
+./src/tailwind.config.js
+
+./src/output.css
