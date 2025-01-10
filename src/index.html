@@ -1022,7 +1022,7 @@
           />
 
           <div
-            class="w-full grid grid-cols-3 gap-y-10 gap-x-4 relative z-[100]"
+            class="w-full grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-y-10 gap-x-4 relative z-[100]"
           >
             <!-- item 1 -->
             <div class="relative flex items-center z-0">
@@ -1167,7 +1167,7 @@
             payments and provide the best customer experience
           </p>
           <!-- grid -->
-          <div class="grid grid-cols-4 gap-[2rem] mt-8">
+          <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-[2rem] mt-8">
             <!-- card 1 -->
             <div>
               <img src="../images/instant-activation-icon.svg" alt="" />
@@ -1262,9 +1262,9 @@
 
       <!-- join razorpay section -->
       <section class="bg-[#f5f8fe] relative pt-40 pb-12 -mt-[200px] -z-[100]">
-        <div class="w-11/12 max-w-[1080px] mx-auto relative flex flex-row">
+        <div class="w-11/12 max-w-[1080px] mx-auto relative flex flex-col lg:flex-row">
           <!-- left part -->
-          <div class="flex flex-col justify-center max-w-[calc(100%-500px)]">
+          <div class="flex flex-col justify-center w-full md:max-w-[calc(100%-500px)] sm:my-16">
             <h2 class="font-mullish font-bold text-2xl text-deepBlueHead">
               Join the 50,00,000+ businesses using Razorpay
             </h2>
@@ -1281,7 +1281,7 @@
             </p>
           </div>
           <!-- right part -->
-          <div class="h-[500px] w-[500px] relative overflow-y-hidden">
+          <div class="h-[500px] w-[500px] relative overflow-y-hidden mx-auto">
             <div
               style="background: linear-gradient(180deg, #f4f8ff, #fff0)"
               class="absolute w-full h-[150px] top-0 z-50"
@@ -1343,7 +1343,7 @@
           </button>
           <!-- main content -->
           <div
-            class="flex flex-row max-w-[960px] items-center mx-auto my-16 space-x-[10rem]"
+            class="flex flex-col xl:flex-row max-w-[960px] items-center mx-auto my-16 lg:space-x-[10rem]"
           >
             <!-- left image -->
             <img
@@ -1355,21 +1355,21 @@
               class="rounded-xl"
             />
             <!-- right part -->
-            <div class="max-w-[400px]">
+            <div class="max-w-[400px] flex flex-col  ">
               <img
                 src="../images/quotes.svg"
                 alt=""
                 loading="lazy"
                 width="35px"
                 height="40px"
-                class="-mb-2"
+                class="-mb-2 xl:order-1"
               />
-              <p class="font-mullish text-3xl font-extralight opacity-60">
+              <p class="font-mullish text-3xl font-extralight opacity-60 xl:order-1">
                 Readymade Closed Wallet Solution For Quick Refunds
               </p>
-              <a href="#" class="text-grayText italic underline">Learn More</a>
-              <p class="font-mullish font-extrabold text-2xl">Lorem Ipsum</p>
-              <p class="font-mullish font-medium">
+              <a href="#" class="text-grayText italic underline xl:order-1">Learn More</a>
+              <p class="font-mullish font-extrabold text-2xl -order-5 xl:order-1 ">Lorem Ipsum</p>
+              <p class="font-mullish font-medium -order-4 xl:order-1">
                 CEO, XYZ Engineering Company
               </p>
               <img
@@ -1377,12 +1377,12 @@
                 alt=""
                 loading="lazy"
                 width="80px"
-                height="40px"
+                height="40px" class="-order-3 xl:order-1"
               />
             </div>
           </div>
           <!-- 6 dot wala div -->
-          <div class="w-full flex flex-row mx-auto space-x-2 justify-center">
+          <div class="w-full hidden lg:flex lg:flex-row  mx-auto space-x-2 justify-center">
             <!-- dot 1 -->
             <div class="h-[10px] w-[10px] bg-gray-300 rounded-full"></div>
             <div class="h-[10px] w-[10px] bg-lightBlue300 rounded-full"></div>
@@ -1452,7 +1452,7 @@
             alt=""
             width="240px"
             height="282px"
-            class="mt-16 pt-3"
+            class="mt-16 pt-3 hidden lg:block"
           />
         </div>
       </section>
@@ -1460,13 +1460,13 @@
       <!-- Footer -->
       <footer
         style="background: linear-gradient(to right, #eef9fe, #edf7ff)"
-        class="-mt-[400px]"
+        class="-mt-[400px] md:-mt-[300px]"
       >
         <div
-          class="w-10/12 max-w-[1080px] mx-auto pt-[400px] pb-10 flex flex-row space-y-6 justify-between"
+          class="w-10/12 max-w-[1080px] mx-auto pt-[400px] pb-10 flex flex-row flex-wrap space-y-6 justify-between"
         >
           <!-- column 1 -->
-          <div class="flex flex-col max-w-[260px]">
+          <div class="flex flex-col lg:max-w-[260px] md:max-w-[260px]">
             <img
               src="../images/logo-dark.svg"
               alt=""
